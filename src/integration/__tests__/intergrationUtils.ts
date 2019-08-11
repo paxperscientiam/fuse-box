@@ -79,6 +79,7 @@ export function createTestBundle(config: IPublicConfig, files: { [key: string]: 
   config.plugins.push(ctx => {
     helper.ctx = ctx;
   });
+
   const { fusebox } = require('../../core/fusebox');
   const fuse = fusebox(config);
   return { fuse, mock, helper: helper };

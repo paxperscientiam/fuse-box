@@ -6,7 +6,7 @@ import { createProductionContext, ProductionContext } from './ProductionContext'
 import { codeSplittingStage } from './stages/codeSplittingStage';
 import { finalStage } from './stages/finalStage';
 import { generationStage } from './stages/generationStage';
-import { moduleLinkStage } from './stages/moduleLInkStage';
+import { moduleLinkStage } from './stages/moduleLinkStage';
 import { preparationStage } from './stages/preparationStage';
 import { referenceLinkStage } from './stages/referenceLinkStage';
 import { transpileStage } from './stages/transpileStage';
@@ -61,6 +61,7 @@ export async function productionMain(props: IProductionMain): Promise<IProductio
 
   // writing bundles and such
   const data = await finalStage(flow);
+
   props.ctx.ict.sync('complete', { bundles: data.bundles, ctx: props.ctx, packages: props.packages });
   return data;
 }
