@@ -3,5 +3,10 @@
   "6fca3d5c": "const global = {};\n      console.log(global.Symbol)\n      console.log(global.Symbol)\n    ",
   "6dac9b37": "console.log(global.Symbol)\n    ",
   "59436dd8": "const __env = {\"NODE_ENV\":\"development\"};\n      console.log(__env)\n    ",
-  "4f165ffb": "const __env = {\"NODE_ENV\":\"development\"};\n      console.log(__env)\n      console.log(__env)\n    "
+  "4f165ffb": "const __env = {\"NODE_ENV\":\"development\"};\n      console.log(__env)\n      console.log(__env)\n    ",
+  "3e450ae0": "const global = {};\n      console.log(global.Symbol)\n    ",
+  "3e450ae1": "const global = {};\n      console.log(global.Symbol)\n      console.log(global.Symbol)\n    ",
+  "07755e484": "console.log(global.Symbol)\n    ",
+  "767450b3": "const __env = {\"NODE_ENV\":\"development\"};\n      console.log(__env)\n    ",
+  "05600236a": "const __env = {\"NODE_ENV\":\"development\"};\n      console.log(__env)\n      console.log(__env)\n    "
 }
