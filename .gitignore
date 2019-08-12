@@ -40,3 +40,5 @@ website/yarn.lock
 some\.sh
 
 src/tests/stubs/sparky/foo/e\.json
+
+pnpm-debug.log
